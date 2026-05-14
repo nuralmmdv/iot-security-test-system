@@ -64,6 +64,7 @@ iot-security-test-system/
 ---
 
 ## Installation
+
 ```bash
 # Clone the repository
 git clone git@github.com:nuralmmdv/iot-security-test-system.git
@@ -81,6 +82,7 @@ pip install -r requirements.txt
 
 # Install nmap (required for network scanning)
 sudo apt install nmap
+```
 
 ---
 
