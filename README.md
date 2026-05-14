@@ -30,11 +30,13 @@ by analyzing their network-accessible attack surface.
 ---
 
 ## Architecture
+
+```
 iot-security-test-system/
 │
 ├── core/
 │   ├── finding.py          # Finding data structure
-│   ├── target.py           # Target data structure
+│   ├── target.py           # Target data structure  
 │   ├── scanner.py          # Main scan orchestrator
 │   └── module_loader.py    # Dynamic module loader
 │
@@ -58,7 +60,7 @@ iot-security-test-system/
 ├── main.py
 ├── config.yaml
 └── requirements.txt
-
+```
 ---
 
 ## Installation
