@@ -65,17 +65,22 @@ iot-security-test-system/
 
 ## Installation
 
-```bash
 # Clone the repository
 git clone git@github.com:nuralmmdv/iot-security-test-system.git
 cd iot-security-test-system
+
+# Install python3-venv if not available (Debian/Ubuntu)
+sudo apt install python3.12-venv
+
+# Create and activate virtual environment
+python3 -m venv venv
+source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Install nmap (required for network scanning)
 sudo apt install nmap
-```
 
 ---
 
