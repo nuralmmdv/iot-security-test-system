@@ -83,7 +83,6 @@ pip install -r requirements.txt
 # Install nmap (required for network scanning)
 sudo apt install nmap
 ```
-
 ---
 
 ## Usage
